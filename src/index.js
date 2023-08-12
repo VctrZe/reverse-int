@@ -1,4 +1,4 @@
-function reverse(n) {
+module.exports = function reverse(n) {
   let nun = Math.abs(n);
   const str = nun.toString().split('');
   const length = str.length;
@@ -15,7 +15,3 @@ function reverse(n) {
 
   return result;
 }
-
-console.log(reverse(-674052))
-
-module.exports = reverse;
